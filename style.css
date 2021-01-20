@@ -79,7 +79,9 @@ body{
         
         
     }
-    
+    .main{
+        margin-left: 15% !important;
+    }   
     .darkdiv{
         margin-left: 2%;
     }
