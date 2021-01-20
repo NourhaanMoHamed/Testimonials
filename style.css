@@ -1,0 +1,148 @@
+@import url("https://fonts.google.com/specimen/Barlow+Semi+Condensed");
+body{
+    font-family: 'Barlow Semi Condensed' sans-serif;
+   font-size: 13px;
+   font-weight: 500;
+   background-color: #edf3fa ;
+}
+.purplediv{
+    background-repeat: no-repeat;
+    background-position-y:0;
+    background-position-x:80%;
+    background-image: url('images/bg-pattern-quotation.svg');
+    background-color: #733fc8 ;
+    color: #FFF;
+    border-radius: 7px;
+    margin-right: 1%;
+}
+.greydiv{
+    background-color: #49556b ;
+    color:#FFF;
+    border-radius: 5px;
+    margin-right: 1%;
+}
+/* .svgimg{
+    float:right;
+    offset: -1;
+    display: inline;
+    left:-10%;
+    position: relative;
+} */
+.bolddesc{
+    offset: 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+.lightdesc{
+    font-weight: 500;
+}
+.darkdiv{
+    background-color: #18202d    ;
+    color:#FFF;
+    
+}
+.darkdiv>.container>.profilepic{
+    border: 2px solid #733fc8;
+}
+.whitediv{
+    background-color: #FFF;
+}
+@media only screen and (max-width:700px)/**Mobile version**/
+{
+    .main{
+        margin-top: 10%;
+        margin-right: 4%;
+    
+    }
+    .maindiv{
+        margin-top: 8%;
+        width:80%;
+        margin-left: 11%;
+    }
+    .longdiv{
+        height: 98vh !important;
+    }
+    .belowtitle{
+        left:22%;
+        top:-2vh;
+        position: relative;
+    }
+
+
+}
+@media screen and (min-device-width:768px)/*Desktop*/
+{
+    .last2{
+        position: relative;
+        top:-40vh;
+        height: 40vh !important;
+        
+        
+    }
+    .main{
+        margin-left: 15% !important;
+    }   
+    .darkdiv{
+        margin-left: 2%;
+    }
+    .longdiv{
+        margin-left: 1%;
+        height: 83vh !important;
+    }
+    .greydiv{
+        margin-left: 1%;
+    }
+    .belowtitle{
+       left:45px;
+       top:-13px;
+       position: relative;
+    }
+   .container{
+
+   }
+   .maindiv{
+       height:40vh ;
+   }
+   .main{
+       margin-top: 10%;
+       margin-left: 7%;
+   }
+}
+.profilepic{
+    border-radius: 70%;
+    width:35px;
+    height: 35px;
+    border: 2px solid #FFF;
+    display: inline;
+    margin-right: 2%;
+    /* margin-top: 4%;
+    margin-left: 2%; */
+}
+.longdiv{
+    background-color: #FFF;
+    height: 90vh;
+overflow:visible;
+}
+
+.title{
+    display: inline;
+}
+.container{
+    margin-top: 3%;
+}
+.profilediv{
+    display: inline;
+}
+.belowtitle{
+    opacity: 0.5;
+}
+.lightdesc{
+    font-weight: 500;
+    opacity: 0.5;
+    font-size: 12px;
+    margin-top: 6%;
+}
+.maindiv{
+    border-radius: 7px;
+    box-shadow: 4px 2px 2px 2px rgb(184, 184, 184);
+}
