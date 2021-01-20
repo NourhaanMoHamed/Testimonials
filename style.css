@@ -74,20 +74,20 @@ body{
 {
     .last2{
         position: relative;
-        top:-40vh;
+        top:-57vh;
         height: 40vh !important;
         
         
     }
     .main{
-        margin-left: 15% !important;
+        margin-left: 18% !important;
     }   
     .darkdiv{
         margin-left: 2%;
     }
     .longdiv{
         margin-left: 1%;
-        height: 83vh !important;
+        height: 100vh !important;
     }
     .greydiv{
         margin-left: 1%;
